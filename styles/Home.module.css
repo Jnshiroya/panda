@@ -4,7 +4,7 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 0px 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -51,7 +51,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 1rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -113,4 +113,31 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+/* Navbar styling */
+ .mainnav{
+  width: 100%;
+  height: 10vh;
+  border-bottom: 1px solid black;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.mainnav ul{
+  display: flex;
+  list-style: none;
+}
+
+.mainnav ul li{
+  margin-right: 35px;
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+}
+/*FOOTER STYLING*/
+.created{
+  font-weight: bold;
+  font-size: larger;
 }
