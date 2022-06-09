@@ -1,0 +1,14 @@
+.container{
+    margin: 0 8rem;
+}
+.blogitem{
+    width: 100%;
+    border-bottom: 0.5px solid black;
+}
+.blogitem h1{
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.blogitem p{
+    margin: 0 0 5px 15px;
+}

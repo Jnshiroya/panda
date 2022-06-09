@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Script from 'next/script'
 import styles from '../styles/Home.module.css'
+import Script from 'next/script'
 
 export default function Home() {
   return (
@@ -12,14 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Script></Script>
-      <nav className={styles.mainnav}>
-        <ul>
-          <Link href=''><li>Home</li></Link>
-          <Link href='/about'><li>About</li></Link>
-          <Link href='/blog'><li>Blog</li></Link>
-          <Link href='/contact'><li>Contact</li></Link>
-        </ul>
-      </nav>
+      
       <main className={styles.main}>
         <h1 className={styles.title}>
         COADING HUNTER
@@ -28,12 +21,6 @@ export default function Home() {
         <p className={styles.description}>
          A Blog For Hunting Coder..
         </p>
-        <div className="bloges">
-          <div className="blogitem">
-            <h1>ABOUT NEXT-JS</h1>
-            <p>THAT'S Javascript FramWork....</p>
-          </div>
-        </div>
       </main>
 
       <footer className={styles.footer}>
